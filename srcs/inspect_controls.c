@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   inspect_controls.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
+/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/28 14:38:07 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/05/28 21:07:11 by eenasalorin      ###   ########.fr       */
+/*   Updated: 2020/06/04 15:04:28 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,9 @@ int	inspect_controls(t_select *se)
 	se->control == UP || se->control == DOWN)
 		move_cursor(se);
 	if (se->control == ESC)
+	{
+		clear();
 		return (0);
+	}
 	return (1);
 }

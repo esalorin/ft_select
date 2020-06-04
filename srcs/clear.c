@@ -1,23 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_striteri.c                                      :+:      :+:    :+:   */
+/*   clear.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/10/22 14:50:04 by esalorin          #+#    #+#             */
-/*   Updated: 2020/06/02 16:31:08 by esalorin         ###   ########.fr       */
+/*   Created: 2020/06/04 14:51:28 by esalorin          #+#    #+#             */
+/*   Updated: 2020/06/04 14:52:01 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_striteri(char *s, void (*f)(unsigned int, char *))
-{
-	unsigned int i;
+#include "ft_select.h"
 
-	i = 0;
-	while (s && s[i] != '\0')
-	{
-		f(i, &s[i]);
-		i++;
-	}
+void	clear(void)
+{
+	tputs(tgetstr("cl", NULL), 1, ft_putint_fd);
 }

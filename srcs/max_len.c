@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   max_len.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
+/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/28 17:13:58 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/05/28 17:41:55 by eenasalorin      ###   ########.fr       */
+/*   Updated: 2020/06/04 15:37:26 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

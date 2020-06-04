@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_rmchr.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
+/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/27 17:36:27 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/04/30 17:12:51 by eenasalorin      ###   ########.fr       */
+/*   Updated: 2020/06/02 16:29:45 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

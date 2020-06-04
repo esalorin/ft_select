@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
+/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/27 19:36:01 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/05/28 20:49:04 by eenasalorin      ###   ########.fr       */
+/*   Updated: 2020/06/04 16:09:56 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,8 @@ int			main(int ac, char **av)
 	{
 		if (!(se.term = getenv("TERM")))
 		{
-			ft_putendl_fd("Set a terminal type: 'export TERM=<type>'", 2);
+			ft_putendl_fd("Set a terminal type: 'export TERM=<type>'",
+			STDERR_FILENO);
 			return (0);
 		}
 		if (set_struct(&se, &av[1], ac - 1))
@@ -42,6 +43,7 @@ int			main(int ac, char **av)
 			ft_putendl_fd("Malloc error. Exiting.", 2);
 	}
 	else
-		ft_putendl_fd("Usage: <command> 'ft_select [arg1, ...]'", 2);
+		ft_putendl_fd("ft_select: usage: <command> './ft_select [arg1, ...]'",
+		STDERR_FILENO);
 	return (0);
 }

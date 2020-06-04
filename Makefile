@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+         #
+#    By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/03/17 16:41:55 by eenasalorin       #+#    #+#              #
-#    Updated: 2020/05/28 17:32:31 by eenasalorin      ###   ########.fr        #
+#    Updated: 2020/06/04 16:53:27 by esalorin         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,6 +19,7 @@ SRCS_DIR := ./srcs
 OBJ_DIR := ./obj
 
 SRCS :=	main.c \
+		clear.c \
 		max_len.c \
 		se_read.c \
 		raw_mode.c \
@@ -30,6 +31,7 @@ SRCS :=	main.c \
 		send_choices.c \
 		se_print_list.c \
 		inspect_controls.c \
+		check_windowsize.c \
 
 OBJ :=	$(addprefix $(OBJ_DIR)/,$(SRCS:.c=.o))
 

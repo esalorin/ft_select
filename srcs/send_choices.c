@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   send_choices.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
+/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/28 17:26:10 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/05/28 17:29:03 by eenasalorin      ###   ########.fr       */
+/*   Updated: 2020/06/04 15:37:09 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ int	send_choices(t_select *se)
 	int i;
 
 	i = 0;
+	clear();
 	while (se->args[i])
 	{
 		if (se->selected[i])

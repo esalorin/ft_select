@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   selection.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
+/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/28 15:39:14 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/05/28 17:41:24 by eenasalorin      ###   ########.fr       */
+/*   Updated: 2020/06/04 15:37:09 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
