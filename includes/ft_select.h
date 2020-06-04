@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_select.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
+/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/27 19:37:17 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/06/04 16:54:20 by esalorin         ###   ########.fr       */
+/*   Updated: 2020/06/04 22:12:28 by eenasalorin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,9 @@ typedef struct			s_select
 {
 	char		**args;
 	char		*term;
+	int			*printed;
 	int			*selected;
+	int			ac;
 	int			cursor;
 	int			max_len;
 	int			control;
@@ -58,7 +60,7 @@ void					unset_rawmode(t_select *se);
 
 int						inspect_controls(t_select *se);
 int						max_len(char **args);
-int						send_choices(t_select *se);
+int						send_selected_list(t_select *se);
 int						set_struct(t_select *se, char **av, int ac);
 
 #endif

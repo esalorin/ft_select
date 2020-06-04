@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
+/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/27 19:36:01 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/06/04 16:09:56 by esalorin         ###   ########.fr       */
+/*   Updated: 2020/06/04 20:10:28 by eenasalorin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ static void	ft_select(t_select *se)
 		ft_putendl_fd("tgetent: entry/terminfo database could not be found", 2);
 	se_print_list(se);
 	se_read(se);
+	clear();
 	unset_rawmode(se);
 	free_all(se);
 }

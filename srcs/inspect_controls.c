@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   inspect_controls.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
+/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/28 14:38:07 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/06/04 15:04:28 by esalorin         ###   ########.fr       */
+/*   Updated: 2020/06/04 20:17:37 by eenasalorin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	inspect_controls(t_select *se)
 	if (se->control == SPACE)
 		selection(se);
 	else if (se->control == ENTER)
-		return (send_choices(se));
+		return (send_selected_list(se));
 	else if (se->control == BSPACE || se->control == DELETE)
 		remove_item(se);
 	else if (se->control == LEFT || se->control == RIGHT ||

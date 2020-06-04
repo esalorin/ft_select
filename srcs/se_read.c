@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   se_read.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
+/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/28 14:29:26 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/06/04 15:37:09 by esalorin         ###   ########.fr       */
+/*   Updated: 2020/06/04 22:19:46 by eenasalorin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

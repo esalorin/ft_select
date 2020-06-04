@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   send_choices.c                                     :+:      :+:    :+:   */
+/*   send_selected_list.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
+/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/28 17:26:10 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/06/04 15:37:09 by esalorin         ###   ########.fr       */
+/*   Updated: 2020/06/04 20:11:50 by eenasalorin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_select.h"
 
-int	send_choices(t_select *se)
+int	send_selected_list(t_select *se)
 {
 	int i;
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   remove_item.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
+/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/28 17:00:51 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/06/04 15:39:05 by esalorin         ###   ########.fr       */
+/*   Updated: 2020/06/04 21:13:16 by eenasalorin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

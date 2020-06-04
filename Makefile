@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+         #
+#    By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/03/17 16:41:55 by eenasalorin       #+#    #+#              #
-#    Updated: 2020/06/04 16:53:27 by esalorin         ###   ########.fr        #
+#    Updated: 2020/06/04 20:14:33 by eenasalorin      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,10 +28,10 @@ SRCS :=	main.c \
 		se_struct.c \
 		move_cursor.c \
 		remove_item.c \
-		send_choices.c \
 		se_print_list.c \
 		inspect_controls.c \
 		check_windowsize.c \
+		send_selected_list.c \
 
 OBJ :=	$(addprefix $(OBJ_DIR)/,$(SRCS:.c=.o))
 
