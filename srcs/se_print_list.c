@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   se_print_list.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
+/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/28 14:39:53 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/06/04 22:13:02 by eenasalorin      ###   ########.fr       */
+/*   Updated: 2020/06/05 14:03:45 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,9 +35,14 @@ static int	print_cols(t_select *se, int i)
 	{
 		i++;
 		if (!se->args[i])
+		{
 			i = 0;
+			while (se->args[i] && se->printed[i])
+				i++;
+			break ;
+		}
 	}
-	if (se->printed[i])
+	if (!se->args[i])
 		return (ft_arraylen(se->args));
 	return (i);
 }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   check_windowsize.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
+/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/04 15:56:32 by esalorin          #+#    #+#             */
-/*   Updated: 2020/06/04 20:42:11 by eenasalorin      ###   ########.fr       */
+/*   Updated: 2020/06/05 13:54:35 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,10 @@
 
 static int	count_cols(struct winsize w, t_select *se, int list)
 {
-	if (list % (w.ws_row))
-		se->files_per_row = list / w.ws_row + 1;
+	if ((list + 1) % w.ws_row)
+		se->files_per_row = (list + 1) / w.ws_row + 1;
 	else
-		se->files_per_row = list / w.ws_row;
+		se->files_per_row = (list + 1) / w.ws_row;
 	if (list % se->files_per_row)
 		se->files_per_col = list / se->files_per_row + 1;
 	else
@@ -37,14 +37,14 @@ void		check_windowsize(t_select *se)
 	list = (int)ft_arraylen(se->args);
 	while (ioctl(STDIN_FILENO, TIOCGWINSZ, &w) != -1)
 	{
-		if (w.ws_row > list)
+		if (w.ws_row > list + 2)
 		{
 			se->files_per_row = 1;
 			se->files_per_col = list;
 			return ;
 		}
 		else if (count_cols(w, se, list))
-				return ;
+			return ;
 		if (!error_printed)
 		{
 			error_printed++;

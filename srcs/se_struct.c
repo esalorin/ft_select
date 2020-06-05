@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   se_struct.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
+/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/28 14:18:02 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/06/04 22:16:44 by eenasalorin      ###   ########.fr       */
+/*   Updated: 2020/06/05 14:03:24 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

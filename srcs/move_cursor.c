@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   move_cursor.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
+/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/28 16:40:05 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/06/04 22:09:01 by eenasalorin      ###   ########.fr       */
+/*   Updated: 2020/06/05 15:22:52 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ static void	move_left(t_select *se)
 		se->cursor - 1);
 }
 
-void	move_cursor(t_select *se)
+void		move_cursor(t_select *se)
 {
 	if (se->control == LEFT && se->files_per_row != 1)
 		move_left(se);

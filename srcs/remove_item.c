@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   remove_item.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
+/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/28 17:00:51 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/06/04 21:13:16 by eenasalorin      ###   ########.fr       */
+/*   Updated: 2020/06/05 11:07:09 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ void		remove_item(t_select *se)
 			se->cursor--;
 		else
 			modify_selection_info(&se->selected[se->cursor],
-			ft_arraylen(se->args));
+			(int)ft_arraylen(se->args));
 		se->max_len = max_len(se->args);
 		se_print_list(se);
 	}

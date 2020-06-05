@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   send_selected_list.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
+/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/28 17:26:10 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/06/04 20:11:50 by eenasalorin      ###   ########.fr       */
+/*   Updated: 2020/06/05 14:03:24 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -6,7 +6,7 @@
 /*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/28 14:27:40 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/06/04 15:37:09 by esalorin         ###   ########.fr       */
+/*   Updated: 2020/06/05 16:06:10 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@ void	unset_rawmode(t_select *se)
 {
 	if (tcsetattr(STDIN_FILENO, TCSANOW, &se->original_mode) == -1)
 		;
+	tputs(tgetstr("ve", NULL), 1, ft_putint_fd);
 }
 
 void	set_rawmode(t_select *se)
@@ -28,4 +29,5 @@ void	set_rawmode(t_select *se)
 	se->raw_mode.c_cc[VTIME] = 0;
 	if (tcsetattr(STDIN_FILENO, TCSANOW, &se->raw_mode) == -1)
 		;
+	tputs(tgetstr("vi", NULL), 1, ft_putint_fd);
 }
