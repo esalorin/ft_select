@@ -6,7 +6,7 @@
 #    By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/03/17 16:41:55 by eenasalorin       #+#    #+#              #
-#    Updated: 2020/06/04 20:14:33 by eenasalorin      ###   ########.fr        #
+#    Updated: 2020/06/23 12:53:25 by eenasalorin      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,12 +22,14 @@ SRCS :=	main.c \
 		clear.c \
 		max_len.c \
 		se_read.c \
-		raw_mode.c \
+		signals.c \
 		free_all.c \
 		selection.c \
 		se_struct.c \
 		move_cursor.c \
 		remove_item.c \
+		set_rawmode.c \
+		unset_rawmode.c \
 		se_print_list.c \
 		inspect_controls.c \
 		check_windowsize.c \

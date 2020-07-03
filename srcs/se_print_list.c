@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   se_print_list.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
+/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/28 14:39:53 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/06/05 14:03:45 by esalorin         ###   ########.fr       */
+/*   Updated: 2020/06/30 14:20:33 by eenasalorin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,6 @@ void		se_print_list(t_select *se)
 	int i;
 
 	i = 0;
-	check_windowsize(se);
 	clear();
 	ft_bzero((void*)se->printed, se->ac * sizeof(int));
 	while (se->args[i])

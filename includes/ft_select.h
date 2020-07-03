@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_select.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
+/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/27 19:37:17 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/06/05 13:53:58 by esalorin         ###   ########.fr       */
+/*   Updated: 2020/06/30 20:52:57 by eenasalorin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,8 @@ typedef struct			s_select
 	t_term		raw_mode;
 }						t_select;
 
+t_select				*g_select;
+
 void					check_windowsize(t_select *se);
 void					clear(void);
 void					free_all(t_select *se);
@@ -56,11 +58,12 @@ void					se_print_list(t_select *se);
 void					se_read(t_select *se);
 void					selection(t_select *se);
 void					set_rawmode(t_select *se);
+void					send_selected_list(t_select *se);
 void					unset_rawmode(t_select *se);
+void					signals(void);
 
 int						inspect_controls(t_select *se);
 int						max_len(char **args);
-int						send_selected_list(t_select *se);
-int						set_struct(t_select *se, char **av, int ac);
+int						se_struct(t_select *se, char **av, int ac);
 
 #endif

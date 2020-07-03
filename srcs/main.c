@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
+/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/27 19:36:01 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/06/05 15:52:37 by esalorin         ###   ########.fr       */
+/*   Updated: 2020/07/03 15:34:39 by eenasalorin      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,14 @@
 
 static void	ft_select(t_select *se)
 {
-	char	buf[1024];
-
 	set_rawmode(se);
-	if (tgetent(buf, se->term) < 1)
-		ft_putendl_fd("tgetent: entry/terminfo database could not be found", 2);
+	signals();
+	check_windowsize(se);
 	se_print_list(se);
 	se_read(se);
-	clear();
 	unset_rawmode(se);
+	if (se->control == ENTER)
+		send_selected_list(se);
 	free_all(se);
 }
 
@@ -38,7 +37,7 @@ int			main(int ac, char **av)
 			STDERR_FILENO);
 			return (0);
 		}
-		if (set_struct(&se, &av[1], ac - 1))
+		if (se_struct(&se, &av[1], ac - 1))
 			ft_select(&se);
 		else
 			ft_putendl_fd("Malloc error. Exiting.", 2);
