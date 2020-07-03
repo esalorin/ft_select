@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
+/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/05/27 19:36:01 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/07/03 15:34:39 by eenasalorin      ###   ########.fr       */
+/*   Created: 2020/05/27 19:36:01 by esalorin          #+#    #+#             */
+/*   Updated: 2020/07/03 16:10:08 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

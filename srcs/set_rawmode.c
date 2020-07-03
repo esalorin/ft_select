@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   set_rawmode.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
+/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/05/28 14:27:40 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/07/03 15:32:06 by eenasalorin      ###   ########.fr       */
+/*   Created: 2020/05/28 14:27:40 by esalorin          #+#    #+#             */
+/*   Updated: 2020/07/03 16:11:26 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

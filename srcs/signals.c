@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   signals.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
+/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/06/22 13:04:30 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/07/03 13:08:40 by eenasalorin      ###   ########.fr       */
+/*   Created: 2020/06/22 13:04:30 by esalorin          #+#    #+#             */
+/*   Updated: 2020/07/03 16:11:36 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

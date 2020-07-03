@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   move_cursor.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
+/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/05/28 16:40:05 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/07/03 15:40:26 by eenasalorin      ###   ########.fr       */
+/*   Created: 2020/05/28 16:40:05 by esalorin          #+#    #+#             */
+/*   Updated: 2020/07/03 16:09:04 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   se_print_list.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
+/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/05/28 14:39:53 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/06/30 14:20:33 by eenasalorin      ###   ########.fr       */
+/*   Created: 2020/05/28 14:39:53 by esalorin          #+#    #+#             */
+/*   Updated: 2020/07/03 16:10:40 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

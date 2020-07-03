@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   check_windowsize.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
+/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/04 15:56:32 by esalorin          #+#    #+#             */
-/*   Updated: 2020/06/30 15:10:07 by eenasalorin      ###   ########.fr       */
+/*   Updated: 2020/07/03 16:09:17 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

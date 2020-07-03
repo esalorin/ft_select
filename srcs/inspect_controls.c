@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   inspect_controls.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
+/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/05/28 14:38:07 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/06/06 13:54:32 by eenasalorin      ###   ########.fr       */
+/*   Created: 2020/05/28 14:38:07 by esalorin          #+#    #+#             */
+/*   Updated: 2020/07/03 16:09:55 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

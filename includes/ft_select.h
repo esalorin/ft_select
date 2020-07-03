@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_select.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eenasalorinta <eenasalorinta@student.42    +#+  +:+       +#+        */
+/*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/05/27 19:37:17 by eenasalorin       #+#    #+#             */
-/*   Updated: 2020/06/30 20:52:57 by eenasalorin      ###   ########.fr       */
+/*   Created: 2020/05/27 19:37:17 by esalorin          #+#    #+#             */
+/*   Updated: 2020/06/30 20:52:57 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
