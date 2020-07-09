@@ -6,7 +6,7 @@
 /*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/28 14:27:40 by esalorin          #+#    #+#             */
-/*   Updated: 2020/07/03 16:11:26 by esalorin         ###   ########.fr       */
+/*   Updated: 2020/07/09 13:01:02 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,10 @@ void	set_rawmode(t_select *se)
 		exit(1);
 	}
 	if (tgetent(buf, se->term) < 1)
+	{
 		ft_putendl_fd("tgetent: entry/terminfo database could not be found", 2);
+		exit(1);
+	}
 	tputs(tgetstr("vi", NULL), 1, ft_putint_fd);
 	tputs(tgetstr("ti", NULL), 1, ft_putint_fd);
 }

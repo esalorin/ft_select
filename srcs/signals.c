@@ -6,7 +6,7 @@
 /*   By: esalorin <esalorin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/22 13:04:30 by esalorin          #+#    #+#             */
-/*   Updated: 2020/07/03 16:11:36 by esalorin         ###   ########.fr       */
+/*   Updated: 2020/07/09 13:00:24 by esalorin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ static void	signal_handler(int sig)
 	{
 		set_rawmode(g_select);
 		signals();
+		check_windowsize(g_select);
 		se_print_list(g_select);
 	}
 	else if (sig == SIGINT || sig == SIGQUIT || sig == SIGTERM || sig == SIGHUP
